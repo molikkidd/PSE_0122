@@ -1,0 +1,20 @@
+body {
+    background: green;
+}
+
+p {
+    font-size: 20pt;
+}
+
+div {
+    background: orange;
+}
+
+#newbie {
+    background: palegreen;
+    border: 6px dashed rgb(255, 174, 0);
+}
+
+.oldschool {
+    background: paleturquoise;
+}
