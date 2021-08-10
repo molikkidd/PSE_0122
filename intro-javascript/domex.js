@@ -101,7 +101,8 @@ button.addEventListener("click", function(){
     let bkfood = document.getElementById("breakfast-foods");
     let lhfood = document.getElementById("lunch-foods");
  
-    let listItem = bkfood.childNodes;
+    // let listItem = bkfood.children;
+    let listItem = bkfood.lastElementChild;
     console.log(listItem);
 
     let rmfood = bkfood.removeChild(listItem);
